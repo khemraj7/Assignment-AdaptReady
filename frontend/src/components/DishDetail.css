@@ -1,0 +1,23 @@
+.dish-detail {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: transparent;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .dish-name {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .dish-info {
+    font-size: 18px;
+  }
+  
+  .dish-info p {
+    margin: 10px 0;
+  }
+  

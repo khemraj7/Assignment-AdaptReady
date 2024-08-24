@@ -1,0 +1,26 @@
+.home {
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter input,
+  .sort select {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .sort {
+    display: flex;
+    align-items: center;
+  }
+  

@@ -1,0 +1,14 @@
+.dish-details-page {
+    padding: 20px;
+  }
+  
+  .dish-details {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .dish-details h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  

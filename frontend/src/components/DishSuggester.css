@@ -1,0 +1,82 @@
+.dish-suggester {
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .dish-suggester h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .ingredient-input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .suggest-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .suggest-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .limit-selector {
+    margin: 20px 0;
+  }
+  
+  .limit-dropdown {
+    padding: 5px;
+  }
+  
+  .dish-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dish-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .pagination-info {
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
